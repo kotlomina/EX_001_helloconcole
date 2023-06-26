@@ -8,4 +8,11 @@
 //int rezalt = number * number;
 
 Console.WriteLine("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
+int count = 2;
+
+while (count <= n)
+{
+   Console.WriteLine(count); 
+   count += 2;
+}
